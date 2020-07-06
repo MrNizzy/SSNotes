@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Title-->
-    <title>SSNotes - Iniciar Sesión</title>
+    <title>SSNotes - Registrarse</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="static/img/logo.svg" type="image/x-icon">
     <!--Styles-->
@@ -17,14 +17,22 @@
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/df8b754810.js" crossorigin="anonymous"></script>
 
+    <!--reCAPTCHA Google-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
+
 </head>
 
 <body class="splash">
 
-    <div class="container mx-auto"style="width: 400px;">
+    <div class="container mx-auto" style="width: 400px;">
         <div class="row">
             <div class="formulario-login col">
-                <form action="">
+                <form action="?" method="POST">
                     <div class="form-group">
                         <img src="static/img/logo.svg" alt="SSNotes" width="50px">
                     </div>
@@ -36,17 +44,26 @@
                         <input type="text" class="form-control mx-sm-5" placeholder="Usuario" required>
                     </div>
                     <div class="form-group">
+                        <h5 class="text-primary text-left lato-font"><i class="fas fa-signature"></i> Nombre</h5>
+                        <input type="text" class="form-control mx-sm-5" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <h5 class="text-primary text-left lato-font"><i class="fas fa-at"></i> E-mail</h5>
+                        <input type="email" class="form-control mx-sm-5" placeholder="Correo electronico" required>
+                    </div>
+                    <div class="form-group">
                         <h5 class="text-primary text-left lato-font"><i class="fas fa-lock"></i> Contraseña</h5>
                         <input type="password" class="form-control mx-sm-5" placeholder="Contraseña" required>
                     </div>
+                    <script src="https://www.google.com/recaptcha/api.js"></script>
                     <div class="form-group">
-                        <button class="btn btn-block btn-primary">Iniciar Sesión</button>
+                        <button class="g-recaptcha btn btn-primary btn-block"
+                            data-sitekey="6Lc6XK4ZAAAAAFrmF00TVLEYuEfr8PxkCGJtMeCG" data-callback='onSubmit'
+                            data-action='submit'>Submit</button>
                     </div>
                     <div class="form-group">
-                        <a class="text-center text-info" href="register.html">Crear una cuenta <i class="fas fa-plus"></i></a>
-                    </div>
-                    <div class="form-group">
-                        <a class="text-center text-info" href="#">¿Olvidaste la contraseña? <i class="fas fa-user-edit"></i></a>
+                        <a class="text-center text-info" href="login.html">Iniciar sesión <i
+                                class="fas fa-sign-in-alt"></i></a>
                     </div>
                 </form>
             </div>

@@ -1,0 +1,280 @@
+nav {
+    background: #267B22;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #36B030, #267B22);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #36B030, #267B22);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------------------*/
+
+.btn-vertical-stack {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.btn-primary {
+    color: #fff!important;
+}
+
+.btn-danger, .btn-hexagon, .btn-primary, .btn-secondary {
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .25);
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+    font-size: 2.25rem;
+    line-height: 1.5;
+}
+
+.btn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    border: 0;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: unset;
+    padding: .8rem 1.5rem;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #36b030;
+    border-color: #36b030;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    color: #313131;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+a {
+    color: #288123;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.dynamic-promotions-container {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.site-body {
+    margin-top: 112px;
+    -webkit-font-smoothing: antialiased;
+    min-height: 600px;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #313131;
+    text-align: left;
+    background-color: #f1edec;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+user agent stylesheet html {
+    color: -internal-root-color;
+}
+
+.btn-primary .grow, .btn-primary::before {
+    background-color: #36b030;
+    -webkit-box-shadow: 0 -4px rgba(21, 108, 0, .5) inset, 0 4px rgba(100, 253, 31, .99) inset, -4px 0 rgba(100, 253, 31, .5) inset, 4px 0 rgba(21, 108, 0, .5) inset;
+    box-shadow: 0 -4px rgba(21, 108, 0, .5) inset, 0 4px rgba(100, 253, 31, .99) inset, -4px 0 rgba(100, 253, 31, .5) inset, 4px 0 rgba(21, 108, 0, .5) inset;
+}
+
+#btn-border::before, .btn-danger::before, .btn-disabled::before, .btn-hexagon::before, .btn-info::before, .btn-primary::before, .btn-secondary::before, .btn-warning::before {
+    -webkit-box-shadow: 0 -4px rgba(0, 0, 0, .3) inset, 0 4px rgba(255, 255, 255, .5) inset, -4px 0 rgba(255, 255, 255, .5) inset, 4px 0 rgba(0, 0, 0, .3) inset;
+    box-shadow: 0 -4px rgba(0, 0, 0, .3) inset, 0 4px rgba(255, 255, 255, .5) inset, -4px 0 rgba(255, 255, 255, .5) inset, 4px 0 rgba(0, 0, 0, .3) inset;
+    z-index: -1;
+}
+
+#btn-border::after, #btn-border::before, #btn-pseudo-element, .btn .grow::after, .btn-danger::after, .btn-danger::before, .btn-disabled::after, .btn-disabled::before, .btn-hexagon::after, .btn-hexagon::before, .btn-info::after, .btn-info::before, .btn-primary::after, .btn-primary::before, .btn-secondary::after, .btn-secondary::before, .btn-warning::after, .btn-warning::before {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: .7s cubic-bezier(0, .8, .26, .99);
+    -o-transition: .7s cubic-bezier(0, .8, .26, .99);
+    transition: .7s cubic-bezier(0, .8, .26, .99);
+}
+
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#btn-border::after, .btn-danger::after, .btn-disabled::after, .btn-hexagon::after, .btn-info::after, .btn-primary::after, .btn-secondary::after, .btn-warning::after {
+    -webkit-box-shadow: 0 4px 0 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, .15);
+}
+
+#btn-border::after, #btn-border::before, #btn-pseudo-element, .btn .grow::after, .btn-danger::after, .btn-danger::before, .btn-disabled::after, .btn-disabled::before, .btn-hexagon::after, .btn-hexagon::before, .btn-info::after, .btn-info::before, .btn-primary::after, .btn-primary::before, .btn-secondary::after, .btn-secondary::before, .btn-warning::after, .btn-warning::before {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: .7s cubic-bezier(0, .8, .26, .99);
+    -o-transition: .7s cubic-bezier(0, .8, .26, .99);
+    transition: .7s cubic-bezier(0, .8, .26, .99);
+}
+
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url("mcfont.ttf");
+    
+}
+
+.enlacedw {
+    height: 40px;
+    width: 300px;
+    outline: 2px solid black;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    background-image: url('button_center.png');
+    background-repeat: repeat;
+    padding: 0;
+    font-family: Minecraft;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px #4C4C4C;
+    border-bottom: 4px solid #565656;
+    border-right: 2px solid #565656;
+    border-left: 2px solid #AAA;
+    border-top: 2px solid #AAA;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.enlacedw span {
+    position: relative;
+    line-height: 40px;
+    bottom: 3px;
+}
+
+.enlacedw:hover {
+    border-bottom: 4px solid #59639A;
+    border-right: 2px solid #59639A;
+    border-left: 2px solid #BDC6FF;
+    border-top: 2px solid #BDC6FF;
+    background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+    color: #FFFFA0;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.footer{
+    background-color: #267B22;
+    color: #313131;
+}
+
+.footer-margin{
+    padding-top: 15px;
+    color:#fff;
+    padding-bottom: 15px;
+}
+
+.footer-a{
+    color:#fff;
+    text-decoration: none;
+}
+.footer-a:hover{
+    text-decoration: none;
+    color:#000;
+}
