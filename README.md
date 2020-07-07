@@ -10,3 +10,6 @@
 
 ## iPhone X
 <p align="center"> <img src="https://github.com/Nizzy0128/SSNotes/blob/master/Devices/SSNotes_login.html(iPhone%20X).png" width="350"/></p>
+
+## Laptop with HiDPI screen
+<p align="center"> <img src="https://github.com/Nizzy0128/SSNotes/blob/master/Devices/SSNotes_panel_index.php(Laptop%20with%20MDPI%20screen).png" width="550"/></p>
