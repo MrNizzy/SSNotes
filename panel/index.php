@@ -15,7 +15,7 @@
 <body>
     <?php 
 	//carga la plantilla con la header y el footer
-    require_once('static/navbar.php');	
+    require_once('components/navbar.php');	
     
  ?>
     <div class="col">
@@ -29,7 +29,7 @@
     <center>
         <?php 
 	//carga la plantilla con la header y el footer
-    require_once('static/footer.php');	
+    require_once('components/footer.php');	
     
  ?>
     </center>
