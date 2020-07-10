@@ -13,26 +13,26 @@
 </head>
 
 <body>
-    <?php 
-	//carga la plantilla con la header y el footer
+    <div>
+        <?php 
     require_once('components/navbar.php');	
     
  ?>
-    <div class="col">
+    </div>
+
+    <!--Contenido del sitio-->
+    <div>
         <?php 
-	//carga la plantilla con la header y el footer
     require_once('content/start.php');	
-    
  ?>
 
     </div>
-    <center>
+
+    <div>
         <?php 
-	//carga la plantilla con la header y el footer
     require_once('components/footer.php');	
-    
  ?>
-    </center>
+    </div>
 
     <?php
     require_once('layouts/scripts.php')
