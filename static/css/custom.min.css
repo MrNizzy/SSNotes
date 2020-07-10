@@ -22,7 +22,6 @@ body > .navbar {
 #home .navbar-brand > img {
     display: inline;
     margin: 0 10px;
-    height: 100%;
 }
 #banner {
     min-height: 300px;
