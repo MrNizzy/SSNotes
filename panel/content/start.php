@@ -1,4 +1,5 @@
-<div class="splash">
+<div class="background-svg">
+    <br><br>
     <div class="container text-left">
         <div class="container jumbotron">
             <h1 class="display-4">¡Bienvenido de nuevo!</h1>
