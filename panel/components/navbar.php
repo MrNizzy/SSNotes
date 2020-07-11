@@ -13,7 +13,7 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active">
+                <li>
                     <a href="index.php"><i class="fas fa-home" style="padding-right:5px"></i>Inicio</a>
                 </li>
                 <li>
@@ -23,7 +23,7 @@
                     <a href="#"><i class="fas fa-bookmark" style="padding-right:5px"></i>Apuntes</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fas fa-swatchbook" style="padding-right:5px"></i> Horario</a>
+                    <a href="horario.php"><i class="fas fa-swatchbook" style="padding-right:5px"></i> Horario</a>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">
