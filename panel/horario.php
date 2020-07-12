@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="background-svg">
     <div>
         <?php 
     require_once('components/navbar.php');	
