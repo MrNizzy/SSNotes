@@ -43,7 +43,7 @@
                         <a href="panel/index.php" class="btn btn-block btn-primary">Iniciar Sesión</a>
                     </div>
                     <div class="form-group">
-                        <a class="text-center card-link" href="register.html">Crear una cuenta <i class="fas fa-plus"></i></a>
+                        <a class="text-center card-link" href="register.php">Crear una cuenta <i class="fas fa-plus"></i></a>
                     </div>
                     <div class="form-group">
                         <a class="text-center card-link" href="#">¿Olvidaste la contraseña? <i class="fas fa-user-edit"></i></a>
