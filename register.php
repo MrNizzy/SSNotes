@@ -41,28 +41,37 @@
                     </div>
                     <div class="form-group">
                         <h5 class="text-primary text-left lato-font"><i class="fas fa-user"></i> Usuario</h5>
-                        <input type="text" class="form-control mx-sm-5" placeholder="Usuario" required>
+                        <input type="text" name="usuario" class="form-control mx-sm-5" placeholder="Usuario" required>
                     </div>
                     <div class="form-group">
                         <h5 class="text-primary text-left lato-font"><i class="fas fa-signature"></i> Nombre</h5>
-                        <input type="text" class="form-control mx-sm-5" placeholder="Nombre" required>
+                        <input type="text" name="nombre" class="form-control mx-sm-5" placeholder="Nombre" required>
                     </div>
                     <div class="form-group">
                         <h5 class="text-primary text-left lato-font"><i class="fas fa-at"></i> E-mail</h5>
-                        <input type="email" class="form-control mx-sm-5" placeholder="Correo electronico" required>
+                        <input type="email" name="email" class="form-control mx-sm-5" placeholder="Correo electronico" required>
                     </div>
                     <div class="form-group">
                         <h5 class="text-primary text-left lato-font"><i class="fas fa-lock"></i> Contraseña</h5>
-                        <input type="password" class="form-control mx-sm-5" placeholder="Contraseña" required>
+                        <input type="password" name="password" class="form-control mx-sm-5" placeholder="Contraseña" required>
+                    </div>
+                    <div class="form-group">
+                        <h5 class="text-primary text-left lato-font"><i class="fas fa-lock"></i> Repite la contraseña</h5>
+                        <input type="password" name="repassword" class="form-control mx-sm-5" placeholder="Repite la contraseña" required>
                     </div>
                     <script src="https://www.google.com/recaptcha/api.js"></script>
                     <div class="form-group">
-                        <button class="g-recaptcha btn btn-primary btn-block"
-                            data-sitekey="6Lc6XK4ZAAAAAFrmF00TVLEYuEfr8PxkCGJtMeCG" data-callback='onSubmit'
-                            data-action='submit'>Crear cuenta</button>
+                        <button class="btn btn-primary btn-block" name="registro">Crear cuenta</button>
                     </div>
+
+                    <?php
+
+                        include("static/php/registro.php");
+
+                    ?>
+
                     <div class="form-group">
-                        <a class="text-center card-link" href="login.html">Iniciar sesión <i
+                        <a class="text-center card-link" href="login.php">Iniciar sesión <i
                                 class="fas fa-sign-in-alt"></i></a>
                     </div>
                 </form>
