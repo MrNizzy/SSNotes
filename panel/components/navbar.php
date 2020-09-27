@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-fixed-top opacity-high nav-border-bottom">
     <a class="navbar-brand" href="index.php"><img src="../static/img/logo-lg.svg" alt="SSNotes" height="30" class="d-inline-block align-top" loading="lazy"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
         aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
