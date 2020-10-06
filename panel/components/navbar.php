@@ -32,13 +32,17 @@
                     <a class="dropdown-item" href="#">Proyecto de grado</a>
                 </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gestionar-asignaturas.php"><i class="fas fa-folder-open" style="padding-right:5px"></i>
+                    Gestionar Asignaturas</a>
+            </li>
         </ul>
         <ul class="navbar-nav navbar-right">
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-user-circle" style="padding-right:5px"></i>Configura tu cuenta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../login.html"><i class="fas fa-sign-in-alt" style="padding-right:5px"></i>Cerrar Sesión</a>
+                    <a class="nav-link" href="../static/php/leave.php"><i class="fas fa-sign-in-alt" style="padding-right:5px"></i>Cerrar Sesión</a>
                 </li>
             </ul>
     </div>
