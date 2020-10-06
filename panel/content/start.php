@@ -1,4 +1,16 @@
-<br>
+<?php
+
+    session_start();
+    $has_session = session_status() == PHP_SESSION_ACTIVE;
+    if($has_session==false){
+        header("location: ../login.php");
+    }
+
+    $NombreCuenta = $_SESSION['username'];
+    $IdCuenta = $_SESSION['id'];
+
+?>
+<?php /*<br>
 <div id="carouselExampleCaptions" class="carousel slide container" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -36,15 +48,15 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+</div>*/ ?>
 <header class="container-navbar">
     <div class="container text-left">
         <div class="container jumbotron">
-            <h1 class="display-4">¡Bienvenido #Usuario!</h1>
+            <h1 class="display-4">¡Bienvenido<?php echo " $NombreCuenta"; ?>!</h1>
             <h4 class="lead">Las noticias más actuales acerca de SSNotes apareceran aquí.</h4>
             <hr class="my-4">
-            <h4>¿Quieres ir a tu sección de notas?</h4>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Ir a notas</a>
+            <h4>¿Quieres ir a tu sección de asignaturas?</h4>
+            <a class="btn btn-primary btn-lg" href="gestionar-asignaturas.php" role="button">Ir a asignaturas</a>
         </div>
     </div>
 </header>

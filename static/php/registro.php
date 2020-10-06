@@ -15,16 +15,16 @@ if (isset($_POST['registro'])){
         if(strlen($_POST['password']) == strlen($_POST['repassword'])){
             
 
-            $consulta = "INSERT INTO Users (user, name, email, password, reg_date) VALUES ('$usuario', '$nombre', '$email', '$password', '$fechareg')";
+            $consulta = "INSERT INTO Users (UserName, Password, Name, Email, RegDate) VALUES ('$usuario', '$password', '$nombre', '$email', '$fechareg')";
             $resultado = mysqli_query($conex, $consulta);
 
             if ($resultado) {
                 ?>
-                <h3 class="alert alert-dismissible alert-success">¡Te haz registrado correctamente!</h3>
+                <h3 class="alert alert-dismissible alert-success">¡Te has registrado correctamente!</h3>
                 <?php
             } else {
                 ?>
-                <h4 class="alert alert-dismissible alert-danger">¡El nombre de usuario o e-mail ya existe, por favor ingresa otra información!</h4>
+                <h4 class="alert alert-dismissible alert-danger">¡El nombre de usuario o e-mail ya existe, por favor ingresa otra información, si crees que se trata de un error por favor contáctanos!</h4>
                 <?php
             }
         }else{

@@ -24,7 +24,7 @@
     <div class="container mx-auto"style="width: 400px;">
         <div class="row">
             <div class="formulario-login col">
-                <form action="">
+                <form action="static/php/start.php" method="POST">
                     <div class="form-group">
                         <img src="static/img/logo-success-dark.svg" alt="SSNotes" height="55px">
                     </div>
@@ -33,14 +33,14 @@
                     </div>
                     <div class="form-group">
                         <h5 class="text-primary text-left lato-font"><i class="fas fa-user"></i> Usuario</h5>
-                        <input type="text" class="form-control mx-sm-5" placeholder="Usuario" required>
+                        <input type="text" name="usuario" class="form-control mx-sm-5" placeholder="Usuario" required>
                     </div>
                     <div class="form-group">
                         <h5 class="text-primary text-left lato-font"><i class="fas fa-lock"></i> Contraseña</h5>
-                        <input type="password" class="form-control mx-sm-5" placeholder="Contraseña" required>
+                        <input type="password" name="password" class="form-control mx-sm-5" placeholder="Contraseña" required>
                     </div>
                     <div class="form-group">
-                        <a href="panel/index.php" class="btn btn-block btn-primary">Iniciar Sesión</a>
+                        <button type="submit" name="login" class="btn btn-block btn-primary">Iniciar Sesión</a>
                     </div>
                     <div class="form-group">
                         <a class="text-center card-link" href="register.php">Crear una cuenta <i class="fas fa-plus"></i></a>
