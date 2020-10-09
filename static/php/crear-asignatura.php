@@ -17,9 +17,9 @@ if (isset($_POST['crear'])){
             $resultado = mysqli_query($conex, $consultaSubject);
 
             if(strlen($_POST['salon']) >= 1 || strlen($_POST['hour_in']) >= 1 || strlen($_POST['hour_out']) >= 1){
-                $consultarIdSubject = "SELECT MAX(ID) from Subjects";
+                $consultarIdSubject = mysqli_query($conex,"SELECT MAX(ID) from Subjects");
                 $array = mysqli_fetch_array($consultarIdSubject);
-                $IdSubject = $array['ID'];
+                $IdSubject = $array[0];//no mano :'v mucho texto.
 
                 $consultaST = "INSERT INTO Teacher_Subject (SubjectID, Timetable_Out, Timetable_In, Classroom,  User) VALUES ('$IdSubject', '$salida', '$ingreso', '$salon', '$IdCuenta')";
                     $resultadoST = mysqli_query($conex, $consultaST);

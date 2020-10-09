@@ -12,14 +12,17 @@
 ?>
 <header class="container-navbar">
 </header>
+
+<h1 class="text-center container lato-font text-primary">
+<i class="fas fa-folder-open" style="padding-right:5px"></i>
+Gestiona tus asignaturas</h1>
+
 <section class="container-navbar">
     <div class="container">
         <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title text-center text-primary">Agregar nueva asignatura</h5>
-                <center class="display-1 text-info"><i class="fas fa-calendar-plus"></i></center>
-                <a href="nueva-asignatura.php" class="btn btn-info btn-lg btn-block">Agregar Nueva</a>
-            </div>
+            <a href="nueva-asignatura.php" class="card-body rounded bg-primary">
+                    <center class="display-1 text-light"><i class="fas fa-plus"></i></center>
+            </a>
         </div>
     </div>
 </section>

@@ -14,9 +14,6 @@
                 <a class="nav-link" href="#"><i class="fas fa-book" style="padding-right:5px"></i>Notas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-bookmark" style="padding-right:5px"></i>Apuntes</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="horario.php"><i class="fas fa-swatchbook" style="padding-right:5px"></i>
                     Horario</a>
             </li>
@@ -39,7 +36,7 @@
         </ul>
         <ul class="navbar-nav navbar-right">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-user-circle" style="padding-right:5px"></i>Configura tu cuenta</a>
+                    <a class="nav-link" href="cuenta.php"><i class="fas fa-user-circle" style="padding-right:5px"></i>Configura tu cuenta</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../static/php/leave.php"><i class="fas fa-sign-in-alt" style="padding-right:5px"></i>Cerrar Sesión</a>
